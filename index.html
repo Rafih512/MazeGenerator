@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>MazeGenerator</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+	<script src="styles.css"></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body style="background-color:#2F4F4F;">
+
+	<h1 id="header"> Maze Generator </h1>
+	<div id=body>
+		<p1> The maze is generated using a Depth-First Search Recursive algorithm.
+		 This algorithm will 'randomly' select a cell to move to until there are
+		  no cells to go to. Then it performs a backtrack to the first available cell. If there are no cells left, the algorithm backtracks to the
+			start of the maze.
+		</p1>
+	</div>
+</body>
+</html>
